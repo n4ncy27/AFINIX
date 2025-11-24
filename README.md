@@ -17,7 +17,8 @@
 ---
 
 <div align="center">
-### *"La compatibilidad es la chispa que convierte el encuentro en destino"*
+
+### ***"La compatibilidad es la chispa que convierte el encuentro en destino"***
 
 </div>
 
