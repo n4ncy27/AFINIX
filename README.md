@@ -1,7 +1,7 @@
 
 # AFINIX - Sistema Inteligente de Compatibilidad con Machine Learning
 
-![Banner del Proyecto](https://via.placeholder.com/800x300/1E3A8A/FFFFFF?text=AFINIX+-+An%C3%A1lisis+de+Compatibilidad+con+IA)
+![Banner del Proyecto](banner%20(2).jpeg)
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
@@ -10,7 +10,7 @@
 
 **Sistema avanzado de predicción de compatibilidad basado en Machine Learning**
 
-[Objetivo](#objetivo) • [Dataset](#dataset) • [Modelos](#modelos) • [Enlaces](#enlaces) • [Equipo](#autores)
+[Autores](#autores) • [Objetivo](#objetivo) • [Dataset](#dataset) • [Modelos](#modelos-y-técnicas) • [Enlaces](#enlaces-del-proyecto)
 
 </div>
 
@@ -28,26 +28,17 @@
 - [Autores](#autores)
 - [Objetivo](#objetivo)
 - [Dataset](#dataset)
-- [Modelos y Técnicas](#modelos)
+- [Modelos y Técnicas](#modelos-y-técnicas)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Resultados](#resultados)
-- [Enlaces del Proyecto](#enlaces)
+- [Enlaces del Proyecto](#enlaces-del-proyecto)
 - [Instalación y Uso](#instalación-y-uso)
-- [Licencia](#licencia)
 
 ---
 
 ## Autores
 
-<div align="center">
-
-| Nombre | Código |
-|--------|--------|
-| **Johan Santiago Rojas Naranjo** | 2225005 |
-| **Leyson David Celis Acelas** | 2225002 |
-| **Nancy Liliana Saenz Moreno** | 2224510 |
-
-</div>
+**Johan Santiago Rojas Naranjo** (2225005), **Leyson David Celis Acelas** (2225002), **Nancy Liliana Saenz Moreno** (2224510)
 
 ---
 
@@ -87,42 +78,11 @@ Ante las limitaciones de los métodos tradicionales de filtrado, **AFINIX** impl
 
 ## Modelos y Técnicas
 
-### **Aprendizaje Supervisado** (Clasificación Binaria)
+**Aprendizaje Supervisado:** SVM, Naive Bayes, Decision Tree, Random Forest
 
-| Modelo | Accuracy | Descripción |
-|--------|----------|-------------|
-| **SVM (Support Vector Machine)** | 73.12% | Mejor rendimiento |
-| **Naive Bayes** | 70.88% | Clasificador probabilístico |
-| **Decision Tree** | 70.31% | Árbol de decisión |
-| **Random Forest** | 66.67% | Ensamble de árboles |
+**Aprendizaje No Supervisado:** PCA, t-SNE, K-Means, DBSCAN
 
-### **Aprendizaje No Supervisado** (Clustering)
-
-#### Reducción Dimensional:
-- **PCA** (Principal Component Analysis)
-  - 50 componentes para análisis
-  - 2 componentes para visualización
-  
-- **t-SNE** (t-Distributed Stochastic Neighbor Embedding)
-  - Perplexity: 50
-  - Iteraciones: 1,000
-  - Muestra: 10,000 perfiles
-
-#### Algoritmos de Clustering:
-- **K-Means**
-  - 6 clusters
-  - 30 inicializaciones
-  
-- **DBSCAN** (Density-Based Spatial Clustering)
-  - eps: 2.8
-  - min_samples: 10
-
-### **Tecnologías Utilizadas:**
-
-```
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-PCA, t-SNE, K-Means, DBSCAN, SVM, Naive Bayes, Decision Trees, Random Forest
-```
+**Técnicas de Preprocesamiento:** One-Hot Encoding, MinMaxScaler, SMOTE
 
 ---
 
@@ -131,22 +91,18 @@ PCA, t-SNE, K-Means, DBSCAN, SVM, Naive Bayes, Decision Trees, Random Forest
 ```
 AFINIX/
 │
-├── 01_exploratory_data_analysis.ipynb  # Notebook principal
-│   ├── Análisis Exploratorio de Datos (EDA)
-│   ├── Preprocesamiento y Limpieza
-│   ├── Modelos Supervisados (Clasificación)
-│   ├── Modelos No Supervisados (Clustering)
-│   └── Visualizaciones y Resultados
+├── Proyecto_IA/
+│   ├── AFINIX.ipynb                              # Notebook principal
+│   ├── match_model_tree_limitado.pkl             # Modelo Decision Tree
+│   ├── match_model_tree_v2.pkl                   # Modelo Decision Tree v2
+│   ├── random_forest_model.pkl                   # Modelo Random Forest
+│   ├── Fase1-proyecto de inteligencia artificial (1).pdf
+│   ├── Fase2-proyecto de inteligencia artificial.pdf
+│   └── PRESENTACIÓN FINAL- AFINIX.pdf
 │
-├── data/
-│   └── okcupid_profiles.csv              # Dataset original
-│
-├── results/
-│   ├── okcupid_ENTREGA_FINAL_COMPLETA.csv  # Resultados con clusters
-│   └── visualizations/                    # Gráficas generadas
-│
-├── README.md                          # Este archivo
-└── requirements.txt                   # Dependencias
+├── banner (2).jpeg                           # Banner del proyecto
+├── README.md                                 # Este archivo
+└── .git/                                     # Control de versiones
 ```
 
 ---
@@ -179,7 +135,7 @@ Se identificaron **6 grupos principales** de usuarios con características simil
 
 ---
 
-## Enlaces del Proyecto {#enlaces}
+## Enlaces del Proyecto
 
 <div align="center">
 
@@ -189,15 +145,26 @@ Se identificaron **6 grupos principales** de usuarios con características simil
 |---------|--------|
 | **Código Fuente** | [Google Colab](https://colab.research.google.com/drive/1ASgdQfLB5zdqpfFrasf7p7D4SR-u8L0o#scrollTo=OFkDjsBNe8yR) |
 | **Video Presentación** | [YouTube](https://youtu.be/l3lErUHyQB4?si=EdnQhM-URCJmPHT) |
-| **Repositorio GitHub** | [GitHub](https://github.com/TU_USUARIO/afinix-ml) |
+| **Repositorio GitHub** | [GitHub](https://github.com/n4ncy27/AFINIX) |
 | **Dataset** | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/okcupid-profiles) |
-| **Diapostivas en canva** | [GitHub Wiki](https://www.canva.com/design/DAG5dAEYWM8/UHCxQJcpJRL85pHLCUNEPw/edit?utm_content=DAG5dAEYWM8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+| **Diapostivas en canva** | [Canva](https://www.canva.com/design/DAG5dAEYWM8/UHCxQJcpJRL85pHLCUNEPw/edit) |
 
 </div>
 
 ---
 
 ## Instalación y Uso
+
+### **Nota Importante sobre el Dataset**
+
+⚠️ **El dataset de OkCupid no se incluye en este repositorio** debido a sus grandes dimensiones (~60,000 registros). GitHub tiene limitaciones de tamaño para los archivos subidos. 
+
+Para ejecutar el proyecto correctamente, **debes descargar el dataset** antes de trabajar con el notebook:
+
+1. Dirígete a [Kaggle - OkCupid Profiles](https://www.kaggle.com/datasets/andrewmvd/okcupid-profiles)
+2. Descarga el archivo `okcupid_profiles.csv`
+3. Coloca el archivo en una carpeta `data/` dentro del directorio del proyecto
+4. Ahora podrás ejecutar el notebook sin problemas
 
 ### **Requisitos Previos**
 
@@ -211,8 +178,8 @@ Google Colab (recomendado) o Jupyter Notebook
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/TU_USUARIO/afinix-ml.git
-cd afinix-ml
+git clone https://github.com/n4ncy27/AFINIX.git
+cd AFINIX
 
 # Instalar dependencias
 pip install -r requirements.txt
@@ -259,7 +226,7 @@ El proyecto incluye **5 visualizaciones principales**:
 
 <div align="center">
 
-<img src="data:image/webp;base64,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" width="150" alt="Logo UIS">
+<img src="logo.webp" width="200" alt="Logo UIS">
 
 **Curso:** Inteligencia Artificial  
 **Institución:** Universidad Industrial de Santander (UIS)  
@@ -267,12 +234,6 @@ El proyecto incluye **5 visualizaciones principales**:
 **Año:** 2025
 
 </div>
-
----
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
 ---
 
@@ -289,7 +250,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ### Hecho con pasión por el equipo AFINIX
 
-**¿Preguntas o sugerencias?** Abre un [Issue](https://github.com/TU_USUARIO/afinix-ml/issues) o contáctanos directamente.
+**¿Preguntas o sugerencias?** Abre un [Issue](https://github.com/n4ncy27/AFINIX/issues) o contáctanos directamente.
 
 ---
 
