@@ -153,6 +153,12 @@ Se identificaron **6 grupos principales** de usuarios con características simil
 
 ---
 
+### 📂 Recursos Completos
+
+En este [Google Drive](https://drive.google.com/drive/folders/1UUadWyQgG9pyqsy0SjtEx-0w1KH0bi7R?usp=sharing) podrás encontrar todo, incluyendo el dataset.
+
+---
+
 ## Instalación y Uso
 
 ### **Nota Importante sobre el Dataset**
