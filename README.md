@@ -230,8 +230,7 @@ El proyecto incluye **5 visualizaciones principales**:
 
 **Curso:** Inteligencia Artificial  
 **Institución:** Universidad Industrial de Santander (UIS)  
-**Semestre:** [Semestre Actual]  
-**Año:** 2025
+**Año:** 2025-2
 
 </div>
 
