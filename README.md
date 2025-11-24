@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# AFINIX - Sistema Inteligente de Compatibilidad con Machine Learning
 
-<div align="center">
+# AFINIX - Sistema Inteligente de Compatibilidad con Machine Learning
 
 ![Banner del Proyecto](https://via.placeholder.com/800x300/1E3A8A/FFFFFF?text=AFINIX+-+An%C3%A1lisis+de+Compatibilidad+con+IA)
 
