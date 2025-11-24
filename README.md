@@ -256,10 +256,3 @@ El proyecto incluye **5 visualizaciones principales**:
 
 **Si este proyecto te fue útil, considera darle una estrella en GitHub**
 
-
-</div>
-
-
-
-
->>>>>>> 7467b1a5e5fac43b06ffaf26496ecee34dd86231
