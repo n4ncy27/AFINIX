@@ -17,9 +17,6 @@
 ---
 
 <div align="center">
-
-<img src="./assets/compatibility-icon.png" width="120" alt="Compatibilidad IA">
-
 ### *"La compatibilidad es la chispa que convierte el encuentro en destino"*
 
 </div>
@@ -190,11 +187,11 @@ Se identificaron **6 grupos principales** de usuarios con características simil
 
 | Recurso | Enlace |
 |---------|--------|
-| **Código Fuente** | [Google Colab](https://colab.research.google.com/drive/TU_ENLACE_AQUI) |
-| **Video Presentación** | [YouTube](https://youtube.com/TU_VIDEO_AQUI) |
+| **Código Fuente** | [Google Colab](https://colab.research.google.com/drive/1ASgdQfLB5zdqpfFrasf7p7D4SR-u8L0o#scrollTo=OFkDjsBNe8yR) |
+| **Video Presentación** | [YouTube](https://youtu.be/l3lErUHyQB4?si=EdnQhM-URCJmPHT) |
 | **Repositorio GitHub** | [GitHub](https://github.com/TU_USUARIO/afinix-ml) |
 | **Dataset** | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/okcupid-profiles) |
-| **Documentación** | [GitHub Wiki](https://github.com/TU_USUARIO/afinix-ml/wiki) |
+| **Diapostivas en canva** | [GitHub Wiki](https://www.canva.com/design/DAG5dAEYWM8/UHCxQJcpJRL85pHLCUNEPw/edit?utm_content=DAG5dAEYWM8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 
 </div>
 
